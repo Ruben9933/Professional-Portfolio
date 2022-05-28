@@ -1,0 +1,93 @@
+/*Header*/
+header {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(74, 7, 7);
+    color: white;
+    border-style: solid black;
+    border-width: 4;
+}
+
+header h1 {
+    justify-content: space-between;
+    display: flex;
+    float: left;
+    color: white;
+    padding-left: 25px;
+    background-color: black;
+}
+
+header h2 {
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    float: right;
+}
+
+header nav {
+    justify-content: space-between;
+    display: flex;
+    float: left;
+}
+
+header ul {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header nav ul li {
+    justify-content: space-between;
+    display: inline-block;
+    color: white;
+}
+
+header nav ul li a {
+    justify-content: space-between;
+    display: inline-block;
+    float: right;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font: bold;
+}
+
+/*Sub-Header*/
+.sub-header {
+    display: flexbox;
+    justify-content: space-between;
+    float: right;
+    background-color: darkblue;
+    color: white;
+    border-style: solid black;
+    
+}
+
+/*Banner*/
+
+
+/*About Me*/
+about-me {
+    display: flexbox;
+    justify-content: space-between;
+    float: right;
+    border-right: 2px solid blue;
+}
+
+.about-me article {
+    display: flexbox;
+    float: right;
+}
+/*Projects*/
+
+
+/*Contact Me*/
+
+
+/*Resume*/
