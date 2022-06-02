@@ -84,6 +84,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .bio {
@@ -117,12 +119,14 @@ main {
     border-right: 5px solid rgb(26, 77, 195);
     padding-right: 5px;
     font-size: 36px;
+    float: left;
 }
 
 .projects nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .projects nav ul {
@@ -130,19 +134,25 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .projects nav ul li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-top: solid black 5px;
+    border-right: solid black 5px;
+    border-bottom: solid black 5px;
+    border-left: solid black 5px;
+    margin: 0 auto;
 }
 
 .projects nav ul li img {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -182,6 +192,11 @@ footer section nav ul {
     justify-content: space-between;
     margin: auto;
     font-size: 40px;
+}
+
+footer section nav ul li {
+    justify-content: space-between;
+    display: flex;
 }
 
 /*Resume*/
