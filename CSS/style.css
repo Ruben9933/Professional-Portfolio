@@ -89,6 +89,7 @@ main {
 .bio {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .bio h1 {
@@ -100,18 +101,19 @@ main {
 
 .bio p {
     font-size: 32px;
+    padding-left: 10px;
 }
 
 /*Projects*/
 .projects {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .projects h1 {
     display: flex;
     text-align: right;
-
     border-right: 5px solid rgb(26, 77, 195);
     padding-right: 5px;
     font-size: 36px;
@@ -125,9 +127,9 @@ main {
 
 .projects nav ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .projects nav ul li {
@@ -148,9 +150,16 @@ main {
 
 /*Contact Me*/
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 footer section {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 footer section h1 {
@@ -164,9 +173,7 @@ footer section h1 {
 
 footer section nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    padding-left: 100px;
 }
 
 footer section nav ul {
