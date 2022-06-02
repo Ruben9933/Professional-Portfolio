@@ -152,6 +152,7 @@ main {
 .projects nav ul li img {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -161,9 +162,10 @@ main {
 /*Contact Me*/
 
 footer {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: larger;
 }
 
 footer section {
@@ -187,16 +189,24 @@ footer section nav {
 }
 
 footer section nav ul {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    margin: auto;
+    display: flex; 
+    margin: 0;
+    padding: 20px 40px 20px 40px;
     font-size: 40px;
 }
 
 footer section nav ul li {
     justify-content: space-between;
-    display: flex;
+    display: inline-block;
+}
+
+footer section nav ul li a {
+    justify-content: space-between;
+    display: inline-block;    
+    padding: 30px;
+    text-align: center;
+    font: bold;
 }
 
 /*Resume*/
